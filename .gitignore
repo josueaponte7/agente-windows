@@ -1,0 +1,48 @@
+# === Secretos: NUNCA subir ===
+.env
+*.env
+servidor/.env
+
+# === Python (carpeta servidor) ===
+servidor/venv/
+servidor/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# === Capturas temporales del agente ===
+servidor/_capturas/
+servidor/*.jpg
+servidor/*.jpeg
+servidor/*.png
+servidor/nota_*.txt
+
+# === Flutter / Dart (carpeta movil) ===
+movil/build/
+movil/.dart_tool/
+movil/.flutter-plugins
+movil/.flutter-plugins-dependencies
+movil/android/.gradle/
+movil/android/app/debug/
+movil/android/app/profile/
+movil/android/app/release/
+movil/.idea/
+movil/*.iml
+movil/ios/Pods/
+
+# === Editores / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+
+# Carpetas temporales del servidor
+servidor/__pycache__/
+servidor/_capturas/
+servidor/_notas/
